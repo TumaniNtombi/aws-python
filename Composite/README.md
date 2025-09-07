@@ -1,4 +1,4 @@
-Car Fleet Inventory – Python CSV Processing
+## Car Fleet Inventory – Python CSV Processing 
 
 This project demonstrates how to process structured data from a CSV file in Python using the csv module and dictionaries. The script reads vehicle data from car_fleet.csv, creates a dictionary for each car with attributes such as VIN, make, model, year, range, top speed, acceleration (0–60), and mileage, and then stores each car in an inventory list.
 
@@ -26,29 +26,21 @@ Processed 11 lines.
 | vin   | make  | model   | year | range | topSpeed | zeroSixty | mileage |
 |-------|-------|---------|------|-------|----------|-----------|---------|
 | 12345 | Tesla | Model S | 2022 | 396   | 200      | 2.3       | 12000  |
-How to run
 
-Clone the repository.
+## How to run
 
-Ensure you have Python 3 installed.
+1. Clone the repository.
+2. Ensure you have Python 3 installed.
+3. Place a car_fleet.csv file in the same directory as the script.
+4. Run the script: python CompositeTumani.py
 
-Place a car_fleet.csv file in the same directory as the script.
-
-Run the script:
-
-python CompositeTumani.py
-
-Learning Objectives
+## Learning Objectives
 
 This lab is part of Python practice exercises on AWS Cloud9.
 It covers:
-
 Dictionaries and nested loops.
-
-Reading CSV files.
-
-Using copy.deepcopy() to preserve object structure.
-
-Iterating through lists of dictionaries to display formatted output.
+1. Reading CSV files.
+2. Using copy.deepcopy() to preserve object structure.
+3. Iterating through lists of dictionaries to display formatted output.
 
 
