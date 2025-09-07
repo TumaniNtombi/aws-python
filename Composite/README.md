@@ -51,4 +51,4 @@ Using copy.deepcopy() to preserve object structure.
 
 Iterating through lists of dictionaries to display formatted output.
 
-- [CompositeTumani.py](scripts/CompositeTumani.py)
+- [CompositeTumani.py](CompositeTumani.py) → Main Python script
