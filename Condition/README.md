@@ -50,4 +50,4 @@ The script performs the following tasks:
 
 ## **File Reference**
 
-- [Python Conditional Input Lab Script](Conditionals.py) → Main Python script
+- [aws-python](Conditionals.py) → Main Python script
