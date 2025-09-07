@@ -1,0 +1,30 @@
+# **Python Guess the Number Lab**
+
+This repository contains a Python script that demonstrates the use of **while loops**, **conditional statements**, and **user input** in Python. The program is an interactive **number guessing game** where the user tries to guess a randomly generated number.
+
+---
+
+## **Description**
+
+The script performs the following tasks:
+
+1. Introduces the user to the game with a welcome message and rules.  
+2. Generates a random number between 1 and 10 using the `random` module.  
+3. Prompts the user to guess the number until the correct guess is made.  
+4. Provides feedback after each guess:  
+   - Correct guess → congratulatory message and ends the loop.  
+   - Incorrect guess → prompt to try again.  
+
+---
+
+## **Python Concepts Covered**
+
+- **Random number generation** with `random.randint()`.  
+- **While loops** to repeat actions until a condition is met.  
+- **Conditional statements** (`if`, `else`) to evaluate guesses.  
+- **User input** and type conversion using `int()`.  
+- **String formatting** with `.format()` for dynamic output messages.  
+
+---
+
+## **Example Interactive Output**
