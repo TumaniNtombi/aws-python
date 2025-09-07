@@ -51,8 +51,8 @@ Using copy.deepcopy() to preserve object structure.
 
 Iterating through lists of dictionaries to display formatted output.
 
-## 📂 Project Files
+## 🐍 Example Code (CompositeTumani.py)
 
-- [CompositeTumani.py](CompositeTumani.py) → Main Python script
-
-- - [CompositeTumani.py](scripts/CompositeTumani.py)
+```python
+# CompositeTumani.py
+print("Hello from CompositeTumani!")
