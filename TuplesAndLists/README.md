@@ -34,3 +34,20 @@ The script covers:
 
 ## **Example Output**
 
+['mango', 'blueberries', 'pineapple']
+<class 'list'>
+mango
+blueberries
+pineapple
+['mango', 'blueberries', 'orange']
+('apple', 'banana', 'kiwi')
+<class 'tuple'>
+apple
+banana
+kiwi
+{'Obed': 'kiwi', 'Lebo': 'Strawberry', 'Tumi': 'apricot'}
+<class 'dict'>
+kiwi
+Strawberry
+apricot
+
