@@ -1,6 +1,6 @@
 # **Python Guess the Number Lab**
 
-This repository contains a Python script that demonstrates the use of **while loops**, **conditional statements**, and **user input** in Python. The program is an interactive **number guessing game** where the user tries to guess a randomly generated number.
+This repository contains a Python script that demonstrates the use of **while loops**, **conditional statements**, **user input**, and **random number generation** in Python. The program is an interactive **number guessing game**.
 
 ---
 
@@ -8,23 +8,46 @@ This repository contains a Python script that demonstrates the use of **while lo
 
 The script performs the following tasks:
 
-1. Introduces the user to the game with a welcome message and rules.  
-2. Generates a random number between 1 and 10 using the `random` module.  
+1. Greets the user and explains the game rules.  
+2. Generates a random number between 1 and 10 using Python's `random` module.  
 3. Prompts the user to guess the number until the correct guess is made.  
 4. Provides feedback after each guess:  
    - Correct guess → congratulatory message and ends the loop.  
-   - Incorrect guess → prompt to try again.  
+   - Incorrect guess → prompts the user to try again.  
 
 ---
 
 ## **Python Concepts Covered**
 
-- **Random number generation** with `random.randint()`.  
+- Random number generation with `random.randint()`.  
 - **While loops** to repeat actions until a condition is met.  
 - **Conditional statements** (`if`, `else`) to evaluate guesses.  
-- **User input** and type conversion using `int()`.  
-- **String formatting** with `.format()` for dynamic output messages.  
+- **User input** with `input()`.  
+- Type conversion from string to integer using `int()`.  
+- String formatting using `.format()` to display dynamic messages.
 
 ---
 
-## **Example Interactive Output**
+## **Example Step-by-Step Output Table**
+
+| Step | User Input | Program Response |
+|------|------------|-----------------|
+| 1    | N/A        | Welcome to Guess the Number! |
+| 2    | N/A        | The rules are simple. I will think of a number, and you will try to guess it. |
+| 3    | 3          | You guessed 3. Sorry, that isn’t it. Try again. |
+| 4    | 7          | You guessed 7. Sorry, that isn’t it. Try again. |
+| 5    | 5          | You guessed 5. That is correct! You win! |
+
+---
+
+### **Notes**
+
+- The loop `while isGuessRight != True` ensures the program continues until the user guesses correctly.  
+- `int()` converts the input from a string to an integer for proper comparison.  
+- `.format()` dynamically inserts the user's guess into the feedback message.  
+
+---
+
+## **File Reference**
+
+- [GuessTheNumber.py](GuessTheNumber.py) → Main Python script
