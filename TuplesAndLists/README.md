@@ -34,8 +34,6 @@ The script covers:
 
 ## **Example Output**
 
-## **Example Output Table**
-
 ### **List: myFruitList**
 | Index | Value        |
 |-------|-------------|
