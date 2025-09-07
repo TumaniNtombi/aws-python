@@ -38,9 +38,9 @@ Processed 11 lines.
 
 This lab is part of Python practice exercises on AWS Cloud9.
 It covers:
-Dictionaries and nested loops.
-1. Reading CSV files.
-2. Using copy.deepcopy() to preserve object structure.
-3. Iterating through lists of dictionaries to display formatted output.
+1. Dictionaries and nested loops.
+2. Reading CSV files.
+3. Using copy.deepcopy() to preserve object structure.
+4. Iterating through lists of dictionaries to display formatted output.
 
 
