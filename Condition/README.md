@@ -50,4 +50,4 @@ The script performs the following tasks:
 
 ## **File Reference**
 
-- [aws-python](Conditionals.py) → Main Python script
+- [Conditionals.py](aws-python) → Main Python script
