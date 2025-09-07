@@ -34,20 +34,35 @@ The script covers:
 
 ## **Example Output**
 
-['mango', 'blueberries', 'pineapple']
-<class 'list'>
-mango
-blueberries
-pineapple
-['mango', 'blueberries', 'orange']
-('apple', 'banana', 'kiwi')
-<class 'tuple'>
-apple
-banana
-kiwi
-{'Obed': 'kiwi', 'Lebo': 'Strawberry', 'Tumi': 'apricot'}
-<class 'dict'>
-kiwi
-Strawberry
-apricot
+## **Example Output Table**
 
+### **List: myFruitList**
+| Index | Value        |
+|-------|-------------|
+| 0     | mango       |
+| 1     | blueberries |
+| 2     | pineapple → orange (after update) |
+
+**Type:** `<class 'list'>`  
+
+---
+
+### **Tuple: myFinalAnswerTuple**
+| Index | Value  |
+|-------|-------|
+| 0     | apple |
+| 1     | banana|
+| 2     | kiwi  |
+
+**Type:** `<class 'tuple'>`  
+
+---
+
+### **Dictionary: myFavoriteFruitDictionary**
+| Key  | Value      |
+|------|-----------|
+| Obed | kiwi      |
+| Lebo | Strawberry|
+| Tumi | apricot   |
+
+**Type:** `<class 'dict'>`  
