@@ -53,4 +53,4 @@ Copy code
 
 ## **File Reference**
 
-- [Python Data Types Lab Script](PythonDataTypesLab.py) → Main Python script
+- [Python Data Types Lab Script](PythonDataTypesLab.py) → Main aws-python script
