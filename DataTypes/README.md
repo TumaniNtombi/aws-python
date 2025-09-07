@@ -34,20 +34,13 @@ For each data type, the script:
 
 ## **Example Output**
 
-Python has three numeric types: int, float, and complex
-1
-1 is of the data type <class 'int'>
-3.14
-3.14 is of the data type <class 'float'>
-5j
-5j is of the data type <class 'complex'>
-True
-True is of the data type <class 'bool'>
-False
-False is of the data type <class 'bool'>
-
-yaml
-Copy code
+| Value | Data Type           | Description           |
+| ----- | ------------------- | --------------------- |
+| 1     | `<class 'int'>`     | Integer number        |
+| 3.14  | `<class 'float'>`   | Floating-point number |
+| 5j    | `<class 'complex'>` | Complex number        |
+| True  | `<class 'bool'>`    | Boolean value (True)  |
+| False | `<class 'bool'>`    | Boolean value (False) |
 
 ---
 
