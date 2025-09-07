@@ -51,8 +51,14 @@ Using copy.deepcopy() to preserve object structure.
 
 Iterating through lists of dictionaries to display formatted output.
 
-## 🐍 Example Code (CompositeTumani.py)
+# CompositeTumani
 
+This repository contains my Python labs and exercises.  
+
+## 📂 Project Files  
+- [CompositeTumani.py](CompositeTumani.py) → Main Python script  
+
+## 🐍 Preview of Code  
 ```python
 # CompositeTumani.py
 print("Hello from CompositeTumani!")
