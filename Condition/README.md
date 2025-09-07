@@ -27,9 +27,27 @@ The script performs the following tasks:
 
 ---
 
-## **Example Usage**
+## **Example Output Table**
 
-Run the script using:
+| User Input (Shipping) | Response (Shipping)                        | User Input (Stationery) | Response (Stationery)                           |
+|----------------------|-------------------------------------------|------------------------|-----------------------------------------------|
+| yes                  | We can help you ship that package!        | stamps                 | You chose to buy stamps.                       |
+| yes                  | We can help you ship that package!        | envelope               | You chose to buy an envelope.                  |
+| yes                  | We can help you ship that package!        | copy                   | You chose to make a copy.                      |
+| yes                  | We can help you ship that package!        | pencil                 | Invalid choice. Please enter stamps, envelope, or copy. |
+| no                   | Please come back when you need to ship a package. Thank you. | N/A                    | N/A                                           |
 
-```bash
-python your_script_name.py
+---
+
+### **Notes**
+
+- The **Shipping column** shows the response to whether the user wants to ship a package.  
+- The **Stationery columns** show the response based on the user’s stationery choice.  
+- Invalid inputs are handled gracefully with a prompt message.  
+- `N/A` indicates that the stationery question was not asked because shipping was declined.  
+
+---
+
+## **File Reference**
+
+- [Python Conditional Input Lab Script](Conditionals.py) → Main Python script
